@@ -19,15 +19,16 @@ function Level(plan) {
 
       var ch = line[x], fieldType = null;
 	 
-
       // Use if and else to handle the two cases
       if (ch == "x")
         fieldType = "wall";
       // Because there is a third case (space ' '), use an "else if" instead of "else"
-      else if (ch == "!")
+      else if (ch == "!"){
         fieldType = "lava";
-	  else if (ch == "y")
-		fieldType = "floater";
+      }
+	    else if (ch == "y"){
+		    fieldType = "floater";
+      }
 
       // "Push" the fieldType, which is a string, onto the gridLine array (at the end).
       gridLine.push(fieldType);

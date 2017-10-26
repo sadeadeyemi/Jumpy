@@ -2,7 +2,7 @@ var GAME_LEVELS = [
   ["                                                                                ",
    "                                                                                ",
    "                                                                                ",
-   "                                                                                ",
+   "                           x                                                    ",
    "                                                                   o            ",
    "                                                                                ",
    "                                                                  yyy           ",
@@ -23,6 +23,7 @@ var GAME_LEVELS = [
    "                              yyyyy                  yyyyyyy                    ",
    "                                                                                ",
    "                                                                                "],
+
   ["                                      x!!x                        xxxxxxx                                    x!x  ",
    "                                      x!!x                     xxxx     xxxx                                 x!x  ",
    "                                      x!!xxxxxxxxxx           xx           xx                                x!x  ",
