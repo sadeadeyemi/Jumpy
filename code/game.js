@@ -18,6 +18,7 @@ function Level(plan) {
       // If the character is ' ', assign null.
 
       var ch = line[x], fieldType = null;
+	 
 
       // Use if and else to handle the two cases
       if (ch == "x")
@@ -26,7 +27,7 @@ function Level(plan) {
       else if (ch == "!")
         fieldType = "lava";
 	  else if (ch == "y")
-		  fieldType = "floater"
+		fieldType = "floater";
 
       // "Push" the fieldType, which is a string, onto the gridLine array (at the end).
       gridLine.push(fieldType);
@@ -55,7 +56,7 @@ function DOMDisplay(parent, level) {
   this.wrap.appendChild(this.drawBackground());
 }
 
-var scale = 20;
+var scale = 15;
 
 DOMDisplay.prototype.drawBackground = function() {
   var table = elt("table", "background");
