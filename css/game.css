@@ -5,12 +5,14 @@
 				 width: 100%;
 }
 .background td { padding: 25;          }
-.lava          { background: rgb(145, 100, 100); }
+.lava          { background: rgb(237, 31, 0); }
 .wall          { background: white;   }
-.floater   	   { background: rgb (0, 255, 255);
-				height: 25px;
-				width: 500 px;
-}
+
+.actor	{position: absolute; }
+.player	{background: rgb(2, 181, 0); }
 .game {
+	overflow: hidden;
+	max-width: 600px;
+	max-height: 450px;
   position: relative;
 }
